@@ -23,3 +23,4 @@ echo.
 echo To stop Simbioin, please double click stop.bat
 echo.
 echo --------------------------------------
+pause
