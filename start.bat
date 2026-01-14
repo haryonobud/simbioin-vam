@@ -12,13 +12,14 @@ docker compose pull
 
 echo.
 echo Starting Simbioin service...
-docker compose up
+docker compose up -d
 
 echo.
 echo --------------------------------------
 echo Simbioin is now running.
 echo Open your browser at:
 echo http://localhost:8000
-echo To stop Simbioin, press Ctrl + C in this window.
+echo.
+echo To stop Simbioin, please double click stop.bat
 echo.
 echo --------------------------------------
