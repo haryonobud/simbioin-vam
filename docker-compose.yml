@@ -1,0 +1,9 @@
+services:
+  simbioin:
+    image: ghcr.io/haryonobud/simbioin-vam:latest
+    container_name: simbioin-vam
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
