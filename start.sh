@@ -13,11 +13,13 @@ docker compose pull
 
 echo ""
 echo "Starting Simbioin service..."
-docker compose up -d
+docker compose up
 
 echo ""
 echo "--------------------------------------"
 echo "Simbioin is now running."
 echo "Open your browser at:"
 echo "http://localhost:8000"
+echo "To stop Simbioin, press Ctrl + C in this terminal."
+echo
 echo "--------------------------------------"
