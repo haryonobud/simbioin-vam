@@ -1,7 +1,7 @@
 services:
   simbioin:
-    image: ghcr.io/haryonobud/simbioin-vam:latest
-    container_name: simbioin-vam
+    image: ghcr.io/haryonobud/simbioin-wgs:latest
+    container_name: simbioin-wgs
     ports:
       - "8000:8000"
     volumes:
