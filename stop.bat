@@ -12,4 +12,3 @@ echo.
 echo --------------------------------------
 echo Simbioin has been stopped.
 echo --------------------------------------
-pause
