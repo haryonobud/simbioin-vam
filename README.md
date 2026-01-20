@@ -14,15 +14,11 @@ Simbioin-WGS implements a standardized whole-genome sequencing analysis pipeline
 that transforms raw sequencing reads into population-level genetic insights
 using widely adopted and reproducible bioinformatics tools.
 
----
-
 ### Quality Control (fastp)
 
 Quality control is a critical first step to assess sequencing performance and
 remove technical artifacts. Simbioin uses **fastp** to evaluate read quality,
 duplication levels, and base composition before downstream analysis.
-
----
 
 ### Read Mapping (bowtie2)
 
@@ -30,23 +26,17 @@ High-quality reads are aligned to a reference genome using **bowtie2**.
 Accurate read mapping ensures reliable variant detection and downstream
 genotype inference.
 
----
-
 ### Variant Calling (samtools & bcftools)
 
 Aligned reads are processed to identify single nucleotide polymorphisms and
 small variants. This step converts read-level information into variant-level
 data represented in VCF format.
 
----
-
 ### Variant Filtering
 
 Raw variants are filtered using quality and depth thresholds to reduce false
 positives. This step ensures that only reliable variants are carried forward
 for population-level analysis.
-
----
 
 ### Population Genetics Analysis (PLINK)
 
@@ -62,8 +52,6 @@ Simbioin is designed as a modular and reproducible bioinformatics platform,
 combining a web-based interface with containerized execution to enable local
 analysis without complex software installation.
 
----
-
 ### System Architecture Overview
 
 #### Frontend  
@@ -74,8 +62,6 @@ execution, and explore results interactively.
 
 **Technology:** React
 
----
-
 #### Backend  
 **API & Orchestration**
 
@@ -83,8 +69,6 @@ Handles job submission, pipeline orchestration, and communication between the
 user interface and analysis containers.
 
 **Technology:** FastAPI + Uvicorn
-
----
 
 #### Execution Layer  
 **Analysis Environment**
@@ -125,8 +109,6 @@ Simbioin is designed to run entirely on local machines using Docker, allowing
 users to perform bioinformatics analyses without manual installation of
 individual software dependencies.
 
----
-
 ### System Requirements
 
 Simbioin can be executed on standard desktop or laptop computers.
@@ -138,8 +120,6 @@ The minimum recommended system requirements are:
   (suitable for small datasets; reference genome indexing and whole-genome
   analyses on larger datasets may require higher memory capacity)
 - Sufficient disk space for sequencing data
-
----
 
 ### Install Docker
 
@@ -154,7 +134,6 @@ using the official Docker documentation:
 After installation, Docker allows Simbioin to execute all bundled
 bioinformatics tools without additional software configuration.
 
----
 
 ### Download Simbioin
 
@@ -198,7 +177,7 @@ During the first execution, the startup process may take longer as Docker
 images are downloaded automatically. Once the services are running, open a
 web browser and access:
 
-http://localhost:8000
+"http://localhost:8000"
 
 
 The application is running correctly when the interface displays a
@@ -212,6 +191,8 @@ Detailed usage instructions and advanced configuration options will be
 provided in the documentation:
 
 https://simbioin.com/docs/usage
+
+---
 
 Feedback and Collaboration
 
