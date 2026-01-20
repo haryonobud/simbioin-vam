@@ -204,4 +204,4 @@ If you are interested in contributing ideas, collaborating on research, or
 discussing potential applications, please feel free to get in touch via
 email:
 
-📧 hary@simbioin.com
+📧 haryonobs@gmail.com
