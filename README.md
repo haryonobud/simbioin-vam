@@ -194,7 +194,7 @@ https://simbioin.com/docs/usage
 
 ---
 
-Feedback and Collaboration
+## Feedback and Collaboration
 
 Simbioin is an evolving research-oriented platform. Feedback, suggestions, and
 collaborative opportunities from researchers, educators, and developers are
